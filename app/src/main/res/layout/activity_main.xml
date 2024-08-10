@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Olá jovens!"
-        android:textSize="10dp"
+        android:textSize="30dp"
         android:id="@+id/lbl_hello" />
 
     <Button
@@ -28,6 +28,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@id/btn_ok"
+        android:layout_centerHorizontal="true"
         android:backgroundTint="#990000"
         android:text="Ops!!"
         android:id="@+id/btn_erro"/>
